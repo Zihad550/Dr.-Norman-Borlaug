@@ -1,5 +1,17 @@
 
 
 $primary:#EEEEEE;
+$secondary: blue;
+
+//font size
+$h1-font-size: 3rem;
+
+
+blockquote p::before{
+ content: open-quote;
+}
+blockquote p::after{
+  content: close-quote;
+}
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
